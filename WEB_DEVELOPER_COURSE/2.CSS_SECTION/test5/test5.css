@@ -1,0 +1,93 @@
+/*PSEUDO CLASSES LECTION*/
+
+/*adjacent selector*/
+/*if we have an input right after an label*/
+
+a {
+    font-size: 20px;
+}
+
+label + input {
+    background-color: #03045e;
+    color: #f8edeb;
+    font-size: 30px;
+}
+
+/*change properties only for this type*/
+input[type="password"] {
+    color: red;
+}
+
+/*both are the same thing*/
+section[class="test"] {
+    font-size: 100px;
+}
+
+.test {
+    font-size: 100px;
+}
+/*-----------------------*/
+
+/*matching*/
+a[href="https://kot.com"] {
+    color: none;
+}
+
+/*containing 'example'*/
+a[href*="example"] {
+    color: none;
+}
+
+/*ending .org*/
+a[href$=".org"] {
+    color: none;
+}
+
+/*cursor above a button*/
+/*remain in one place in the air.*/
+button:hover {
+    background-color: #e76f51;
+    color: #ffe8d6;
+}
+
+/*cursor above an anchor tag*/
+a:hover {
+    text-decoration: red solid underline;
+    color: #00746a;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #00b4d8;
+}
+
+/*has been visited before*/
+a:visited {
+    color:chartreuse
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #14213d;
+    font-size: 50px;
+}
+
+/*when we are using this input*/
+input[type="text"]:focus {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+button:nth-of-type(1) {
+    background-color: #30328a;
+}
+
+/*make every even field (0 ,2, 4, 6, 8, 10)*/
+input:nth-last-of-type(2n) {
+    background-color: #e76f51;
+}
+
+input[type="email"]:autofill {
+    color: #e76f51;
+    background-color: #e76f51;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    .required:after {
+        content: " *";
+        color: red;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestSeller/Login</title>
+</head>
+
+<body>
+    <h1>Signup Page</h1>
+    <hr>
+
+    <form action="/fu/" method="">
+
+        <p>
+            <label for="firstname" class="required">First name:</label>
+            <input type="text" id="firstname" name="firstname" size="10" placeholder="Firstname" required>
+        </p>
+
+        <p>
+            <label for="lastname" class="required">Last name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+        </p>
+
+        <p>
+            <label for="email" class="required">Email:</label>
+            <input type="email" name="email" id="email" size="20" placeholder="Email Address" required>
+        </p>
+
+        <p>
+            <label for="password" class="required">Password:</label>
+            <input type="password" id="password" size="15" placeholder="Pssword" minlength="8" maxlength="16" required>
+        </p>
+
+        <p>
+            <label for="re-password" class="required">Re-enter Password</label>
+            <input type="password" id="re-password" size="15" placeholder="Re-enter Password" minlength="8"
+                maxlength="16" required>
+        </p>
+
+        <p>
+            <label for="birthday" class="required">Birthday</label>
+            <input type="date" name="birthday" id="birthday" placeholder="Birthday" required>
+        </p>
+
+        <p>
+            <label for="phoneNo">Phone number:</label>
+            <input type="number" name="phoneNo" id="phoneNo" placeholder="Phone number:">
+        </p>
+
+        <p>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+
+</html>

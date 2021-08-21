@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race-Registration</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <header>
+            <h1>Race Registration!</h1>
+            <hr> <br>
+        </header>
+
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required>
+        </div>
+
+        <div>
+            <p><label for="">Select a Race:</label></p>
+
+            <p>
+                <input type="radio" name="race" id="fun_run_5k" value="fun_run_5k">
+                <label for="fun_run_5k">Fun Run 5k</label>
+            </p>
+
+            <p>
+                <input type="radio" name="race" id="half_marathon" value="half_marathon">
+                <label for="half_marathon">Half Marathon</label>
+            </p>
+
+            <p>
+                <input type="radio" name="race" id="full_marathon" value="full_marathon">
+                <label for="full_marathon">Full Marathon</label>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <label for="age">Select Age Group</label>
+                <select name="age" id="age">
+                    <option value="">Please select an option</option>
+                    <option value="under_18">Under 18</option>
+                    <option value="above_18">Above 18</option>
+                </select>
+            </p>
+        </div>
+
+        <p>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+
+</html>

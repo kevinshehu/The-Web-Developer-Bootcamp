@@ -1,0 +1,7 @@
+/*descendant selector*/
+/*all anchor tags inside an li*/
+
+li a {
+    color: teal;
+    font-size: 30px;
+}

@@ -1,0 +1,22 @@
+h2 {
+    color: olive;
+    background-color: blanchedalmond;
+}
+
+button {
+    color: magenta;
+    background-color:darkred;
+}
+
+p {
+    color: rgb(0, 25, 253);
+    background-color: #34ebc3;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: wheat;
+}
