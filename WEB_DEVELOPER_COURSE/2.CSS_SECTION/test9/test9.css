@@ -1,13 +1,49 @@
-div {
+div:nth-of-type(1) {
     width: 200px;
     height: 100 px;
     margin: 20px;
     background-color: #00b4d8;
 
     /*we need these 3 elements for the border to show up*/
-    border-width: 2px;
+    border-width: 5px;
     border-color: #000000;
     border-style: solid;
+
+    /*controls corner of border*/
+    border-radius: 10px;
+
+    /*make box size same as the width*/
+    box-sizing: border-box;
+}
+
+div:nth-of-type(2) {
+    width: 200px;
+    height: 100 px;
+    margin: 20px;
+    background-color: #30cc00;
+
+    /*we need these 3 elements for the border to show up*/
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+
+    /*controls corner of border*/
+    border-radius: 10px;
+
+    /*make box size same as the width*/
+    box-sizing: border-box;
+}
+
+div:nth-of-type(3) {
+    width: 200px;
+    height: 100 px;
+    margin: 20px;
+    background-color: #cc0070;
+
+    /*we need these 3 elements for the border to show up*/
+    border-width: 5px;
+    border-color: rgb(0, 253, 114);
+    border-style: double;
 
     /*controls corner of border*/
     border-radius: 10px;
