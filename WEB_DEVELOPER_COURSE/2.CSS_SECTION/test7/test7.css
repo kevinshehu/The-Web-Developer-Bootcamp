@@ -14,5 +14,5 @@ button:hover {
 
 /*this declaration overrides any other declarations*/
 button{
-    color: darkmagenta !important;
+    color: darkmagenta !important;  /*super specific*/
 }
