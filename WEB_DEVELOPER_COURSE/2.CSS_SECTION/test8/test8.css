@@ -1,0 +1,9 @@
+/*all elements of body will inherit this property*/
+body {
+    color: brown;
+}
+
+/*div will inherit from body but its own property 'wins'*/
+div {
+    color: blueviolet;
+}
