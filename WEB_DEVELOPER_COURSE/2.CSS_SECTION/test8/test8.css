@@ -7,3 +7,8 @@ body {
 div {
     color: blueviolet;
 }
+
+/*inherit from the closest parent*/
+section {
+    color: teal;
+}
