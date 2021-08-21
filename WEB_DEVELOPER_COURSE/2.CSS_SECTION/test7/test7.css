@@ -7,4 +7,5 @@
 /*The more specific selector wins.*/
 button:hover {
     background-color: coral;
+    color: cyan;
 }
