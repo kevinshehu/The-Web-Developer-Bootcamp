@@ -1,0 +1,24 @@
+div {
+    width: 200px;
+    height: 100 px;
+    margin: 20px;
+    background-color: #00b4d8;
+
+    /*we need these 3 elements for the border to show up*/
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+
+    /*controls corner of border*/
+    border-radius: 10px;
+
+    /*make box size same as the width*/
+    box-sizing: border-box;
+}
+
+h1 {
+    width: auto;
+    background-color: #9b2226;
+    text-align: center;
+    margin: auto;
+}
