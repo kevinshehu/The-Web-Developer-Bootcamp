@@ -1,6 +1,7 @@
 /*all elements of body will inherit this property*/
 body {
     color: brown;
+    font-size: 20px;
 }
 
 /*div will inherit from body but its own property 'wins'*/
@@ -11,4 +12,9 @@ div {
 /*inherit from the closest parent*/
 section {
     color: teal;
+}
+
+/*some elements does not inherit by default*/
+button {
+    font-size: inherit;
 }
