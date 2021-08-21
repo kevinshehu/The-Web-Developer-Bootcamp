@@ -8,4 +8,5 @@
 button:hover {
     background-color: coral;
     color: cyan;
+    font-size: 100px;
 }
