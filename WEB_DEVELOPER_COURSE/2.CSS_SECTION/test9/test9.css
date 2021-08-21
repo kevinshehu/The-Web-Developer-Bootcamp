@@ -1,3 +1,10 @@
+h1 {
+    width: auto;
+    background-color: #9b2226;
+    text-align: center;
+    margin: auto;
+}
+
 div:nth-of-type(1) {
     width: 200px;
     height: 100 px;
@@ -5,9 +12,7 @@ div:nth-of-type(1) {
     background-color: #00b4d8;
 
     /*we need these 3 elements for the border to show up*/
-    border-width: 5px;
-    border-color: #000000;
-    border-style: solid;
+    border: 5px solid black;
 
     /*controls corner of border*/
     border-radius: 10px;
@@ -23,9 +28,7 @@ div:nth-of-type(2) {
     background-color: #30cc00;
 
     /*we need these 3 elements for the border to show up*/
-    border-width: 5px;
-    border-color: red;
-    border-style: dashed;
+    border: 5px dashed red;
 
     /*controls corner of border*/
     border-radius: 10px;
@@ -34,27 +37,14 @@ div:nth-of-type(2) {
     box-sizing: border-box;
 }
 
-div:nth-of-type(3) {
-    width: 200px;
+.borderDemo {
+    border: 10px ridge #1C6EA4;
+    width: 300px;
     height: 100 px;
-    margin: 20px;
-    background-color: #cc0070;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px 40px 40px 40px;
 
-    /*we need these 3 elements for the border to show up*/
-    border-width: 5px;
-    border-color: rgb(0, 253, 114);
-    border-style: double;
-
-    /*controls corner of border*/
-    border-radius: 10px;
-
-    /*make box size same as the width*/
-    box-sizing: border-box;
-}
-
-h1 {
-    width: auto;
-    background-color: #9b2226;
-    text-align: center;
-    margin: auto;
+    /*style each side individually*/
+    border-left-style: outset;
 }
