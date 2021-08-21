@@ -9,4 +9,5 @@ button:hover {
     background-color: coral;
     color: cyan;
     font-size: 100px;
+    font-weight: 50px;
 }
