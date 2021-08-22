@@ -1,0 +1,23 @@
+button {
+    padding: 5px;
+    margin: 10px;
+    border: 15px #e76f51 double;
+}
+
+body {
+    background-color: black;
+}
+
+#kot {
+    /*apply to all four sides*/
+    padding: 10px;
+
+    /*vertical horizontal*/
+    padding: 5px 10px;
+
+    /*top horizontal bottom*/
+    padding: 1px 2px 2px;
+
+    /*top right bottom left*/
+    padding: 5px 1px 0px 2px;
+}
