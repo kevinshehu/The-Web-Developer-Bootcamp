@@ -1,0 +1,13 @@
+1.  Inline elements: 
+        -   fit in alongside other elements
+        -   width & height are ignored
+        -   margin & padding push elements away horizontally but not vertically
+
+
+2.  Block level elements: 
+        -   take up a whole block of space
+        -   width, height, margin, padding are respected
+
+
+3. Inline-Block:
+        -   behaved like an inline element expect width, height, margin, padding are respected

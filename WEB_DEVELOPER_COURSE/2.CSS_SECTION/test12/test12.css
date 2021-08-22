@@ -1,0 +1,31 @@
+h1 {
+    background-color: palegoldenrod;
+
+    /*h1 will now behave as inline elements */
+    display: inline;                    
+}
+
+span {
+    background-color: #023047;
+    color: #fb8500;
+
+    /*span will now behave as block elements*/
+    display: block;
+
+    width: fit-content;
+}
+
+div {
+    display: inline-block;
+
+    height: auto;
+    width: 200px;
+
+    margin: 10px;
+    padding: 5px;
+
+    background-color: #023047; 
+    color: white;
+
+    border: 5px black solid;
+}
