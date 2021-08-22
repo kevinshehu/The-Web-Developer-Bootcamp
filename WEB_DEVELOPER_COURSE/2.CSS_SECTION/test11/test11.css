@@ -1,6 +1,6 @@
 button {
-    padding: 5px;
-    margin: 10px;
+    padding: 5px;                       /*padding is space between text and border*/    
+    margin: 10px;                       /*margin is space between elements*/
     border: 15px #e76f51 double;
 }
 
@@ -21,3 +21,7 @@ body {
     /*top right bottom left*/
     padding: 5px 1px 0px 2px;
 }
+
+/*
+    TIP: While desinging a website firsty set margin: 0px; to remove extra spaced
+*/
