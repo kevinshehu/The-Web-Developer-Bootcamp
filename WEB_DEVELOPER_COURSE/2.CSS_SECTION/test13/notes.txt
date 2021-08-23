@@ -1,0 +1,7 @@
+*   Percentages are always relative to some other value:
+        - value from a parent
+        - value from the element itself
+
+*   Example:
+        1. width: 50;           --> half of the width of the parent
+        2. line-height: 50%;    --> half the font-size of the element itself
