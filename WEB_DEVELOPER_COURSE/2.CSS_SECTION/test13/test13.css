@@ -1,0 +1,36 @@
+h1 {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    width: 700px;
+    height: 700px;
+
+    background-color: #9d0208;
+    color: white;
+
+    border: 5px solid #00f5d4;
+}
+
+div {
+    background-color: #003049;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+}
+
+.customTemplate {
+    /*50% of the element itself*/
+    line-height: 50%;
+}
+
+.template2 {
+    line-height: 200%;
+}
