@@ -1,0 +1,23 @@
+.customTemplate {
+    font-size: 5em;
+}
+
+p {
+    /*inheriting 2x from section*/
+    font-size: 2em;
+
+    /*3x of the margin of <p>*/
+    margin-left: 3em;
+}
+
+button {
+    /*better to work with em than px*/
+    font-size: 1.2em;
+    border-radius: 0.6em;
+    padding: 0 1em;
+    margin: 1.5em;
+}
+
+.rems {
+    font-size: 2.2rem;
+}

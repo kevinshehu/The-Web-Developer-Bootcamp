@@ -1,0 +1,17 @@
+*   EM are relative units:
+
+        1. Font size:    
+            --> 1em equals the font-size of the parent
+            --> 2em's is twice the font-size of the parent
+
+        2. With other properies 1em is equal to the computed font-size of the element itself
+
+*   ROOT EMS (rems):
+
+        1. relative to the root html element's font-size
+
+        2. if the root font-size is 20px: 
+            --> 1 rem is always 20px
+            --> 2 rem is always 40px
+
+        3. root element always stays the same
