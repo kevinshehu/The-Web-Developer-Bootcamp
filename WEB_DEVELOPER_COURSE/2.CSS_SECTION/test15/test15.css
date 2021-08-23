@@ -1,0 +1,25 @@
+p {
+    /*last value is alpha(transparency)*/
+    /*it will make only the text transparent not the background*/
+    color: rgba(255, 255, 255, 0.7);
+
+    font-size: 3rem;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.customTemplate {
+    color: white;
+    font-size: 3rem;
+    background-color: rgb(0, 255, 200);
+
+    /*this propery will affect everything not only one.*/
+    opacity: 0.9;
+}
