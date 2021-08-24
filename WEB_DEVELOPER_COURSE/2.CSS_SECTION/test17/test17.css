@@ -4,6 +4,7 @@
     height: 200px;
     margin: 10px;
     transition: 1s;
+    transition-timing-function: steps(4, jump-end);
     background-color: rgb(255, 0, 0);
 }
 
