@@ -1,0 +1,21 @@
+.circle {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition: 1s;
+    background-color: rgb(255, 0, 0);
+}
+
+.circle:hover {
+    background-color: rgb(25, 0, 255);
+    border-radius: 50%;
+}
+
+body {
+    background-color: black;
+}
+
+section:hover div {
+    margin-left: 500px;
+}
