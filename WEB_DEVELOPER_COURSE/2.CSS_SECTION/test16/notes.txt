@@ -1,0 +1,17 @@
+*   Relative:
+        -   Is going to keep the normal flow of the document,
+            we can offset it relative to itself.
+
+*   Absolute:
+        -   When we position an element absolutely the element is removed
+            from the normal document flow and no space is created for the element
+            in the page layout.
+
+*   Fixed:
+        -   When we position fixed the element is removed from the normal 
+            document flow, and no space is created for element in the page layout.
+        
+        -   It is used to keep things fixed while you scroll. For example a navigation bar.
+
+*   Sticky:
+        -   Firsty it is normal than while you scroll it stick to one postion.

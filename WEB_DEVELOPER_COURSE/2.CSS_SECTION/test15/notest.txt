@@ -1,1 +1,4 @@
 *   Transparency has values from 0 to 1.
+
+*   2 last digits on hexadecimal show to oppacity:
+        -   Range from 00 to FF
