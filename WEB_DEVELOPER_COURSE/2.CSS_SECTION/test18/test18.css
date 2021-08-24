@@ -1,0 +1,44 @@
+#nje {
+    background-color: #8ecae6;
+    transform: rotate(2deg);
+    transition: 500ms;
+    transition-delay: 1s;
+}
+
+#dy {
+    background-color: #219ebc;
+    transform: rotate(4deg);
+    transition: 500ms;
+    transition-delay: 2s;
+}
+
+#tre {
+    background-color: #00537c;
+    transform: skew(22deg);
+    transition: 500ms;
+    transition-delay: 3s;
+}
+
+#kater {
+    background-color: #ffb703;
+    transition: 500ms;
+    transition-delay: 4s;
+    transform: rotate(22deg) scale(1.3);
+}
+
+#pese {
+    background-color: #fb8500;
+    transform: rotate(10deg);
+    transition: 500ms;
+    transition-delay: 5s;
+    transform: scale(2);        /*get 2x bigger*/
+}
+
+#nje, #dy, #tre, #kater, #pese {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: 500px;
+    border: 5px solid black;
+}

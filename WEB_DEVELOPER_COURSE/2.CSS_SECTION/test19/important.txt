@@ -1,0 +1,8 @@
+*   How to display element at the center of the page:
+
+        .center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    /*display element at the center of the page*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: rgb(0, 0, 0);
+}
+
+button {
+    /*remove background of the button*/
+    background: none;
+
+    color: #ffa260;
+    border: 2px solid #ffa260;
+
+    padding: 1em 2em;
+    font-size: 1em;
+}
+
+button:hover {
+    border-color: #f1ff1c;
+    color: white;
+
+    /*
+        1.offset-x
+        2.offset-y
+        3.blur-radius
+        4.spread-radius
+    */
+    box-shadow: 0px 0.5em 0.5em -0.4em #f1ff1c;
+
+    /*make it move, go up*/
+    transform: translateY(-0.5em);
+
+    /*smoth it out*/
+    transition: all 0.5s;
+
+    /*change cursor*/
+    cursor: pointer;
+}
