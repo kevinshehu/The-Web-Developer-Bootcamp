@@ -1,0 +1,1 @@
+*   If you seperate elements by a line break. A space character is added between them.

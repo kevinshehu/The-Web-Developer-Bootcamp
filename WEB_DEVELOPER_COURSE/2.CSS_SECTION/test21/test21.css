@@ -1,0 +1,17 @@
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 3em;
+}
+
+p {
+    /*pairings*/
+    /*fonts that go with each other*/
+    font-family: Monserrat;
+    
+    font-size: 1.2em;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
