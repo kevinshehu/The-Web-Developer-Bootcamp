@@ -1,0 +1,34 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: blue;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    border: 5px solid blue;
+    display: flex;
+
+    /*allow us to decide on the main axis deriction on our container*/
+    flex-direction: row;
+
+    /*justify*/
+    justify-content: center;
+
+    /*start from the bottom*/
+    align-items: center;
+
+    /*wrap, change main axis*/
+    flex-wrap: nowrap;
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    font-size: 4em;
+}

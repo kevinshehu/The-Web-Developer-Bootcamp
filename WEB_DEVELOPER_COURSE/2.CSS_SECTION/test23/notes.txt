@@ -3,3 +3,31 @@
 2-  Flexbox is a recent addition to CSS, included to adress common layout frustrations.
 
 3-  Flexbox allows us to distribute space dynamically across elements of an unknown size.
+
+*   Example (flex):
+
+        flex-direction: row;            --> show all the elements in a row from left to right
+        flex-direction: row-reverse;    --> show all the elements in a row from right to left
+
+        flex-direction: column;         --> show all the elements in a columnt from top to bottom
+
+*   Example (justify-content):
+
+        justify-content: flex-start;    --> start from the beggining
+        justify-content: flex-end;      --> push to the end
+        justify-content: space-between; --> space between elements but not space between elements and container
+        justify-content: space-evenly;  --> sapce is evenly shared
+
+*   Example (wrap):
+
+        1. flex-wrap: wrap;
+        2. flex-wrap: nowrap;
+        3. flex-wrap: wrap-reverse;
+
+*   Align Items to center:
+
+        /*justify*/
+        justify-content: center;
+
+        /*start from the bottom*/
+        align-items: center;

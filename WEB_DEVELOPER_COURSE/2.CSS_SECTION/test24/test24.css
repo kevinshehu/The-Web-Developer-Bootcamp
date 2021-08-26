@@ -1,0 +1,23 @@
+#container {
+    background-color: #e63946;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+    border: 5px solid white;
+
+    display: flex;
+    flex-direction: row;
+
+    align-content: center;
+    justify-content: center;
+}
+
+
+#container div {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
