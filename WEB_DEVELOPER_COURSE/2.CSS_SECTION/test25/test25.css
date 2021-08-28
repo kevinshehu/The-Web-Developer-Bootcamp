@@ -1,0 +1,153 @@
+/*properties for the main section*/
+#section1 {
+    background-color: #d62828;
+
+    width: 90%;
+    height: 500px;
+
+    /*0 top and bottom*/
+    /*auto left and right, place in center*/
+    margin: 50px auto;
+
+    /*border*/
+    border: 5px solid black;
+
+    /*flexbox properties*/
+    display: flex;
+
+    /*justify-content works with 'MAIN AXIS'*/                 
+    justify-content: space-around;            
+    
+    /*works with 'CROSS AXIS'*/
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+
+/*properties for each div*/
+#div1 {
+    background-color: #000814;
+}
+
+#div2 {
+    background-color: #8ecae6;
+}
+
+#div3 {
+    background-color: #fb8500;
+}
+
+#div4 {
+    background-color: #023047;
+}
+
+#div5 {
+    background-color: #ffb703;
+}
+
+/*common properties of divs*/
+/*divs wont show up if we do not specify width and height for each of them*/
+#div1, #div2, #div3, #div4, #div5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+
+#section2 {
+    background-color: #00ff88;
+
+    width: 90%;
+    height: 500px;
+
+    /*0 top and bottom*/
+    /*auto left and right, place in center*/
+    margin: 50px auto;
+
+    /*border*/
+    border: 5px solid black;
+
+    /*flexbox properties*/ 
+    display: flex;
+
+    /*choose direction, row, column, reverse for each*/
+    flex-direction: row;
+    
+    /*justify-content works with 'MAIN AXIS'*/                 
+    justify-content: center;            
+    
+    /*works with 'CROSS AXIS'*/
+    align-items: flex-end;
+    
+    flex-wrap: wrap;
+}
+
+#section3 {
+    background-color: #d9ff00;
+
+    width: 90%;
+    height: 500px;
+
+    /*0 top and bottom*/
+    /*auto left and right, place in center*/
+    margin: 50px auto;
+
+    /*border*/
+    border: 5px solid black;
+
+    /*flexbox properties*/
+    display: flex;
+
+    /*choose direction, row, column, reverse for each*/
+    flex-direction: column;
+    
+    /*justify-content works with 'MAIN AXIS'*/                 
+    justify-content: flex-start;            
+    
+    /*works with 'CROSS AXIS'*/
+    align-items: flex-start;
+    
+    /*wrap changes 'CROSS-AXIS'*/       
+    /*wrap-reverse --> makes the opposite of 'CROSS-AXIS' property*/
+    flex-wrap: wrap-reverse;
+}
+
+#section4 {
+    background-color: #ea00ff;
+
+    width: 90%;
+    height: 500px;
+
+    /*0 top and bottom*/
+    /*auto left and right, place in center*/
+    margin: 50px auto;
+
+    /*border*/
+    border: 5px solid black;
+
+    /*flexbox properties*/
+    display: flex;
+
+    /*choose direction, row, column, reverse for each*/
+    flex-direction: column;
+    
+    /*justify-content works with 'MAIN AXIS'*/                 
+    justify-content: flex-start;            
+    
+    /*works with 'CROSS AXIS'*/
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+    
+    /*sets the distribution of space between and around content items along a flexbox's cross-axis or a grid's block axis*/
+    /*controls space between columns because direction is set to column*/
+    align-content: space-around;
+
+    /* Pack items around the center */
+    /*align-items: center;*/
+}

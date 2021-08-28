@@ -26,8 +26,8 @@
 
 *   Align Items to center:
 
-        /*justify*/
-        justify-content: center;
+        /*MAIN AXIS*/
+        justify-content: center;                
 
-        /*start from the bottom*/
-        align-items: center;
+        /*CROSS AXIS*/
+        align-items: center;                    
