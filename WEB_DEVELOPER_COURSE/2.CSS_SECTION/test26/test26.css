@@ -1,0 +1,97 @@
+/*properties for the main section*/
+#section1 {
+    background-color: #d62828;
+
+    width: 90%;
+    height: 500px;
+
+    /*0 top and bottom*/
+    /*auto left and right, place in center*/
+    margin: 50px auto;
+
+    /*border*/
+    border: 5px solid black;
+
+    /*flexbox properties*/
+    display: flex;
+
+    /*justify-content works with 'MAIN AXIS'*/                 
+    justify-content: space-around;            
+    
+    /*works with 'CROSS AXIS'*/
+    align-items: center;
+}
+
+/*properties for each div*/
+#div1 {
+    background-color: #000814;
+}
+
+#div2 {
+    background-color: #8ecae6;
+}
+
+#div3 {
+    background-color: #fb8500;
+}
+
+#div4 {
+    background-color: #023047;
+}
+
+#div5 {
+    background-color: #ffb703;
+}
+
+/*common properties of divs*/
+/*divs wont show up if we do not specify width and height for each of them*/
+#section1>#div1, #div2, #div3, #div4, #div5 {
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid black;
+
+    text-align: center;
+
+    /*width of divs become 400px, makes width be ignored*/
+    /*flex-basis: 400px;*/  /*its along 'MAIN-AXIS*/
+}
+
+h1 {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}
+
+div:nth-last-of-type(4) {
+    /*gwoth of specific element*/
+    flex-grow: 1;
+}
+
+/*---------------------------------------------------------------------------*/
+
+main {
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+
+    border: 5px solid black;
+
+    display: flex;
+}
+
+main > .sidebar {
+    background-color: #ffc300;
+
+    border: 2px solid white;
+
+    /*going to grow*/
+    flex: 1 300px;
+}
+
+main > .maincontent {
+    background-color: brown;
+
+    /*grow*/
+    flex: 1 600px;
+}

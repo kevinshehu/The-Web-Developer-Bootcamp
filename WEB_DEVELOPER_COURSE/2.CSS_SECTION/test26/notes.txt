@@ -1,0 +1,5 @@
+1-  FLEX-BASIS  --> Defines the initial size of an element before additional space is distributed.
+
+2-  FLEX-GROW   --> Controls the amount of available space an element should take up. Accepts a unit-less number value.
+
+3-  FLEX-SHRINK --> If items are larger than the container, they shrink according to flex-shrink.

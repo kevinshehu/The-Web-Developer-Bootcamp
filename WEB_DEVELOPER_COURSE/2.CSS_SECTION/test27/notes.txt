@@ -1,0 +1,11 @@
+*   RESPONSIVE DESIGN*
+
+1.  How do we create websites that look good on all screen siezes?
+
+    -   These days, we typically create ONE website and stylesheet 
+        that is able to respond to different device seizes and features.
+
+2.  MEDIA QUERIES:
+
+    -   They allow us to modify our styles depending on 
+        particular parameters like screen width or device type.

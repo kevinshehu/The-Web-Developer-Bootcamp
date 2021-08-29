@@ -20,8 +20,6 @@
     
     /*works with 'CROSS AXIS'*/
     align-items: center;
-    
-    flex-wrap: wrap;
 }
 
 /*properties for each div*/
@@ -150,4 +148,14 @@ h1 {
 
     /* Pack items around the center */
     /*align-items: center;*/
+}
+
+#div6 {
+    background-color: rgb(255, 0, 0);
+
+    width: 200px;
+    height: 200px;
+
+    /*align single element*/
+    align-self:center;
 }
