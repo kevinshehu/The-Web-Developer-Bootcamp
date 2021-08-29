@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #60a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.panel {
+  /* background color of all panel*/
+  background-color: white;
+
+  /* border property */
+  border-radius: 10px;
+
+  /* top bottom & left right */
+  padding: 15px 25px;
+
+  /* full maximised */
+  width: 100%;
+  max-width: 960px;
+
+  /* flexbox */
+  display: flex;
+
+  /* go into column, because we are designing mobile site */
+  flex-direction: column;
+
+  /* place in center the panel */
+  text-align: center;
+
+  /* make all text uppercase */
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  /* give bottom border */
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-child {
+  /* remove border from the last element */
+  border-bottom: none;
+}
+
+.pricing-img {
+  /* distance with end */
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+/* header text property */
+.pricing-header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricing-features {
+  margin: 50px 0 25px;
+  color: #016ff9;
+}
+
+.pricing-features-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child{
+  border-bottom: 1px solid #e1f1ff;
+}
+
+/* price */
+.pricing-price {
+  color: #016ff9; 
+
+  /* break line */
+  display: block;
+
+  /* size and weight */
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* button properties */
+.pricing-button {
+  /* border prop */
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+
+  /* text color */
+  color: #348efe;
+
+  /* in the same line */
+  display: inline-block;
+
+  /* space inside button */
+  padding: 15px 35px;
+
+  /* remove underline */
+  text-decoration: none;
+
+  /* space with other elements */
+  margin: 25px 0;
+
+  /* change of color */
+  transition: background-color 200ms ease-in-out;
+}
+
+/* action on the button */
+.pricing-button:hover, .pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+  background-color: #269aff;
+  color: white;
+}
+
+/* when width becomes larger */
+/* desktop size (usually) */
+@media (min-width: 900px){
+  .panel {
+    /* panel will go in horizontal direction */
+    flex-direction: row;
+  }
+
+  .pricing-plan {
+    /* remove bottom border */
+    border-bottom: none;
+
+    /* add right border */
+    border-right: 1px solid #e1f1ff;
+
+    /* spacing between all content and border */
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    /* remove right border from last element */
+    border-right: none;
+  }
+}
