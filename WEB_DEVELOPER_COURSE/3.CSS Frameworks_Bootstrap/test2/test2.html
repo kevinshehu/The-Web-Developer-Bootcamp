@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="test2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="display-1">I am a <span class="badge rounded-pill bg-primary">Header</span></h1>
+    <h1 class="display-2">I am second header</h1>
+    <h1 class="display-5">I am fifth header</h1>
+
+    <!-- makes text bigger -->
+    <p class="lead bg-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magni ut autem temporibus, repudiandae
+        repellendus similique at, accusantium inventore recusandae dolore. Corrupti sunt nemo animi doloribus illum.
+        Pariatur, ad commodi!
+        Maxime mollitia optio, qui deserunt iste placeat ipsum autem sed? Ullam velit vitae error molestias ducimus
+        soluta consequatur at, architecto qui reiciendis voluptas rerum saepe sunt, facilis in delectus eveniet?
+    </p>
+
+    <!-- it gets text e little heavier, bolder, larger -->
+    <blockquote class="blockquote">
+        <!-- danger background -->
+        <p class="bg-danger">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium veritatis beatae dolor. Illum possimus
+            nesciunt quo minus repellat est fuga laudantium, ab aliquid facilis quod modi debitis quidem quae sapiente.
+        </p>
+    </blockquote>
+
+    <button class="btn bnt-info bg-primary">Click here to get
+        <span class="badge bg-danger text-black">info</span>
+    </button>
+
+    <button class="btn btn-warning">
+        Watch yourself!
+    </button>
+
+    <!-- div with an alert background -->
+    <div class="alert alert-danger">
+        You died!
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Hold up!</strong> You should first verify your email.
+
+        <!-- this 'X' symbol is different -->
+        <!-- data-dismiss, role are specific from bootstrap -->
+        <!-- if we do not have JS files below we couldn't use this button -->
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

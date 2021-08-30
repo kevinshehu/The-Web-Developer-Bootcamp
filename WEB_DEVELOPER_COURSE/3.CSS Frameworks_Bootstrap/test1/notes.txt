@@ -1,0 +1,7 @@
+*   BOOTSTRAP   --> help us quickly build responsive websites.
+
+*   Components  --> bootstrap gives us access to a bunch of pre-built components that we can incorporate into our own website.
+
+*   Grid System --> bootstrap also comes with a grid system which help us to construct our own custom responsive layouts. 
+
+*   We do not need to download bootstrap. We can just link to it.
