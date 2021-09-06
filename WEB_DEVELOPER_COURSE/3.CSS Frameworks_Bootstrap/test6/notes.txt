@@ -1,0 +1,2 @@
+*   In small screen sizes you want your elements to have bigger dimensions:
+        --> Phone_Element > Tablet_Element > PC_Element
