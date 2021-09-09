@@ -18,20 +18,21 @@
             <!-- row no 0 -->
             <div class="row">
                 <!-- 'form-group' group elements together  -->
-                <div class="form-group col">
+                <!-- everything below medium will take the entire line -->
+                <div class="form-group col-md-6">
                     <!-- 'form-control' class for forms -->
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" placeholder="email@example.com">
                 </div>
 
-                <div class="form-group col">
+                <div class="form-group col-md-6">
                     <label for="passwordV">Password</label>
                     <input type="password" class="form-control" id="passwordV" placeholder="******">
                 </div>
             </div>
 
             <div class="row">
-                <div class="form-group col">
+                <div class="form-group col-md-6">
                     <label for="city">Choose your city:</label>
                     <select name="city" id="city" class="form-control">
                         <option value="">Select an option</option>
@@ -45,15 +46,15 @@
 
             <div class="row">
                 <!-- switch -->
-                <div class="form-group form-switch col border border-1">
+                <div class="form-group form-switch col-md-6 border border-1">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
                     <label class="form-check-label" for="flexSwitchCheckDefault">Enter dev mode.</label>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="form-group">
                 <!-- checkbox -->
-                <div class="custom-control col border border-1">
+                <div class="custom-control border border-1">
                     <!-- 'form-check-input' -->
                     <input class="form-check-input" type="checkbox" value="yes" id="checkB">
 
