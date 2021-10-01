@@ -27,5 +27,18 @@ for (let temp of allLinks) {
     temp.innerText = 'CLICK ME MF!';
 }
 
+
 const firstLink = document.querySelector('a');
+
+firstLink.innerText = 'TEST';
+
+get href
 console.log(firstLink.getAttribute('href'));
+
+set href
+firstLink.setAttribute('href', 'https://www.google.com/');
+
+const textInput = document.querySelector('input[type="text"]');
+
+change type to password
+textInput.type = 'password';
