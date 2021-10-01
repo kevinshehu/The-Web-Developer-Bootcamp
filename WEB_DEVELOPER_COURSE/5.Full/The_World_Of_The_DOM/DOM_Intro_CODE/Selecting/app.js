@@ -32,13 +32,13 @@ const firstLink = document.querySelector('a');
 
 firstLink.innerText = 'TEST';
 
-get href
+// get href
 console.log(firstLink.getAttribute('href'));
 
-set href
+// set href
 firstLink.setAttribute('href', 'https://www.google.com/');
 
 const textInput = document.querySelector('input[type="text"]');
 
-change type to password
+// change type to password
 textInput.type = 'password';
