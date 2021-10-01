@@ -27,3 +27,5 @@ for (let temp of allLinks) {
     temp.innerText = 'CLICK ME MF!';
 }
 
+const firstLink = document.querySelector('a');
+console.log(firstLink.getAttribute('href'));

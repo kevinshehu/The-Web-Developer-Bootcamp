@@ -1,0 +1,3 @@
+* DOCUMENT OBJECT --> Is where everything starts to manipulate all the elements.
+
+* 
