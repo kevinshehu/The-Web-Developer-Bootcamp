@@ -2,6 +2,22 @@
     display: inline-block;
     text-align: center;
 }
-.pokemon img {
+
+img {
     display: block;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    background-color: bisque;
 }
