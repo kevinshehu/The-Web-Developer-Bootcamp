@@ -1,0 +1,4 @@
+#cotainer {
+    display: flex;
+    flex-direction: column;
+}
