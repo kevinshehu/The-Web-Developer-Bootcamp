@@ -12,11 +12,12 @@ tweetForm.addEventListener('submit', function (e) {
     // call function
     addTweet(username, tweet);
 
-    // clear field
+    // clear field (reset)
     tweetForm.elements.username.value = '';
     tweetForm.elements.tweet.value = '';
 });
 
+// function
 function addTweet(username, tweet) {
     const newTweet = document.createElement('li');
     const boldUsername = document.createElement('b');
