@@ -1,0 +1,10 @@
+h1 {
+    color: gold;
+    background: black;
+    font-size: 4em;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.589);
+}
