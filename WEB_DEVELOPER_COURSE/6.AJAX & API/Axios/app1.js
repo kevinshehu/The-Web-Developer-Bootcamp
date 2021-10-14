@@ -4,7 +4,7 @@ const h1 = document.querySelector('h1');
 // ASYNC FUNCTION
 const getDadJoke = async () => {
     try {
-        // PASS HEADER
+        // PASS HEADER, TO GET THE JSON
         const configuration = { headers: { Accept: 'application/json' } };
 
         // GET RESPONSE

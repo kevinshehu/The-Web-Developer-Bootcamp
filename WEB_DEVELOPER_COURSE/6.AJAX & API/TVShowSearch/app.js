@@ -20,8 +20,10 @@ const makeImages = (shows) => {
 
 // FUNCTION TO REMOVE ALL IMAGES
 const removeImages = () => {
+    // SELECT ALL IMAGES ON THE BODY
     const allImages = document.body.querySelectorAll('img');
 
+    // ITERATE AND REMOVE
     for (let temp of allImages) {
         temp.remove();
     }
@@ -36,8 +38,10 @@ form.addEventListener('submit', async function (e) {
     // GET INPUT
     const searchTerm = form.elements.query.value;
 
-    // GET DATA FROM JSON
-    const config = { params: { q: searchTerm } }
+    // SET PARAMETERS
+    const config = { params: { q: searchTerm } };
+
+    // GET THE DATA FROM JSON
     const response = await axios.get(`http://api.tvmaze.com/search/shows`, config);
 
     // CALL FUNCTIOM
