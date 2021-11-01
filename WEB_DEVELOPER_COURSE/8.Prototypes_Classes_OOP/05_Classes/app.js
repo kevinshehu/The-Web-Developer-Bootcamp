@@ -1,26 +1,24 @@
 class Color {
-	constructor(r, g, b, name) {
+	// CONSTRUCTOR
+	constructor(r, g, b, a, name) {
 		this.r = r;
 		this.g = g;
 		this.b = b;
 		this.name = name;
 	}
-	innerRGB() {
-		const { r, g, b } = this;
-		return `${r}, ${g}, ${b}`;
+
+	greet() {
+		console.log(`Hello ${this.name}!`);
 	}
+
 	rgb() {
-		return `rgb(${this.innerRGB()})`;
+		// this keyword is a must
+		return `rgb(${this.r}, ${this.g}, ${this.b})`;
 	}
-	rgba(a = 1.0) {
-		return `rgba(${this.innerRGB()}, ${a})`;
-	}
-	hex() {
-		const { r, g, b } = this;
-		return (
-			'#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)
-		);
+
+	rgba(a) {
+		return `rgb(${r}, ${g}, ${b}, ${a})`;
 	}
 }
-const red = new Color(255, 67, 89, 'tomato');
-const white = new Color(255, 255, 255, 'white');
+
+const c1 = new Color(25, 100, 30, 'kevin');
