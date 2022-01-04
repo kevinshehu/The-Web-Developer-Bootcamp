@@ -2,6 +2,10 @@
 /*all anchor tags inside an li*/
 
 li a {
-    color: teal;
-    font-size: 30px;
+  color: teal;
+  font-size: 30px;
+}
+
+div > h1 {
+  color: red;
 }

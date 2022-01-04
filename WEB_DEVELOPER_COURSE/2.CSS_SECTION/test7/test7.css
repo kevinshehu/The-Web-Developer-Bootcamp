@@ -6,13 +6,13 @@
 
 /*The more specific selector wins.*/
 button:hover {
-    background-color: coral;
-    color: rgb(0, 0, 0);
-    font-size: 100px;
-    font-weight: 50px;
+  background-color: coral;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  font-weight: 50px;
 }
 
 /*this declaration overrides any other declarations*/
-button{
-    color: darkmagenta !important;  /*super specific*/
+button {
+  color: darkmagenta !important; /*super specific*/
 }

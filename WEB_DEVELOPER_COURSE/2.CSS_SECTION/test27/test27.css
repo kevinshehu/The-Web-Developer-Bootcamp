@@ -1,63 +1,64 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-    font-size: 6em;
-    text-align: center;
+  font-size: 6em;
+  text-align: center;
 }
 
 h4 {
-    font-size: 3em;
-    text-align: center;
+  font-size: 3em;
+  text-align: center;
 }
 
 nav {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
-ul, li {
-    display: inline;
-    margin: 0;
-    padding: 0;
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 /*when width is exactly 800px*/
-@media(width: 800px) {
-    /*property of h1 at that moment*/
-    h1 {
-        color: purple;
-    }
+@media (width: 800px) {
+  /*property of h1 at that moment*/
+  h1 {
+    color: purple;
+  }
 }
 
 /*when width is greater than 800px*/
-@media(min-width: 800px) {
-    /*property of h1 at that moment*/
-    h2 {
-        color: purple;
-    }
+@media (min-width: 800px) {
+  /*property of h1 at that moment*/
+  h1 {
+    color: orange;
+  }
 }
 
 /*when width is lower than 800px*/
-@media(max-width: 800px) {
-    /*property of h1 at that moment*/
-    h3 {
-        color: purple;
-    }
+@media (max-width: 800px) {
+  /*property of h1 at that moment*/
+  h1 {
+    color: green;
+  }
 }
 
 /*when width is between*/
-@media(min-width: 500px) and (max-width: 600px){
-    /*property of h1 at that moment*/
-    h4 {
-        background-color: rgb(255, 145, 0);
-        color: white;   
-    }
+@media (min-width: 500px) and (max-width: 600px) {
+  /*property of h1 at that moment*/
+  h4 {
+    background-color: rgb(255, 145, 0);
+    color: white;
+  }
 }
 
 /*when orientation is landscape*/
-@media(orientation: landscape) {
-    body {
-        background-color: magenta;
-    }
+@media (orientation: vertical) {
+  body {
+    background-color: brown;
+  }
 }

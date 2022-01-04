@@ -1,9 +1,12 @@
 /*PSEUDO ELEMENTS LECTURE*/
 
-
 /*only the first letter of first h2*/
 h2:nth-of-type(1)::first-letter {
-    color: darkcyan;
-    font-size: 50px;
-    font-weight: bolder;
+  color: darkcyan;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h1:nth-of-type() {
+  color: red;
 }

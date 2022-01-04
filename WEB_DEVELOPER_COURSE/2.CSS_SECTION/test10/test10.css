@@ -1,14 +1,13 @@
 button {
-    background-color: deeppink;
-    font-size: 20px;
-    width: 200px;
-    height: 200px;
+  background-color: deeppink;
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
 
-    /*  everything goes to the right
+  /*  everything goes to the right
         float: right;
     */
-    
 
-    /*top right bottom left*/
-    padding: 10px 20px 30px 40px;      
+  /*top right bottom left*/
+  padding: 10px 20px 30px 40px;
 }

@@ -1,31 +1,31 @@
 h1 {
-    background-color: palegoldenrod;
+  background-color: palegoldenrod;
 
-    /*h1 will now behave as inline elements */
-    display: inline;                    
+  /*h1 will now behave as inline elements */
+  display: inline;
 }
 
 span {
-    background-color: #023047;
-    color: #fb8500;
+  background-color: #023047;
+  color: #fb8500;
 
-    /*span will now behave as block elements*/
-    display: block;
+  /*span will now behave as block elements*/
+  display: block;
 
-    width: fit-content;
+  width: fit-content;
 }
 
 div {
-    display: inline-block;
+  display: inline-block;
 
-    height: auto;
-    width: 200px;
+  height: auto;
+  width: 200px;
 
-    margin: 10px;
-    padding: 5px;
+  margin: 10px;
+  padding: 5px;
 
-    background-color: #023047; 
-    color: white;
+  background-color: #023047;
+  color: white;
 
-    border: 5px black solid;
+  border: 5px black solid;
 }
